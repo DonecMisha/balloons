@@ -1,0 +1,81 @@
+<!DOCTYPE html> <!--doctype was missing-->
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Oswald:wght@300&display=swap" rel="stylesheet">
+  <title>Contact Us</title> 
+  <link type="text/css" rel="stylesheet" href="../CSS/balloons.css">
+  <style>
+    form {
+      width: 30em;
+    }
+
+    label,
+    input,
+    textarea {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .form-control {
+      margin-bottom: 1em;
+    }
+
+    textarea {
+      min-height: 10em;
+    }
+
+    .form-control input,
+    .form-control textarea {
+      padding: 0.5em;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Contact Us</h1>
+  <ul class="navigation">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="about.html">About us</a></li>
+    <li><a href="contact_us.html">Contact us</a></li>
+  </ul>
+
+  <h2>Contact</h2>
+
+  <p class="introduction">Contact details and map.
+  <p>
+
+  <p>Get in touch with our sales team for more details</p>
+  <p> This form has html validation using they keyword required and customer messages using JS validation</p>
+
+  <form id="myForm" action="">
+
+    <div class="form-control">
+      <label for="fullName">Your full name</label>
+      <input required id="fullName" type="text" name="full_name" />
+    </div>
+  <div class="email_control">
+      <label for="emailAddress">Your email</label>
+      <input required id="emailAddress" type="email" name="email_address" />
+  </div>
+  <div class="age_control">  
+  <label for="age">Your age</label>
+    <input type="number" name="age" id="age" min="1" max="150">
+  </div>
+  <div class="story_control">  
+  <label for="story">Your story</label>
+    <textarea id="story" name="story"></textarea>
+  </div>
+
+    <input type="submit" value="Go!" />
+
+  </form>
+
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+
+.page-container{
+  background-color:#226800 solid 2em purple;
+}
+
+main{
+    background-color:#226800 solid 2em rgb(230, 63, 22);
+}
+
+header{
+    background-color:#226800 solid 2em rgb(96, 230, 38);
+}
+
+footer{
+    background-color:#226800 solid 2em rgb(72, 184, 68);
+}
+
+.we-do{
+    background-color:#226800 solid 2em rgb(11, 5, 125);
+}
+.we-are{
+    background-color:#226800 solid 2em rgb(48, 58, 201);
+}
+
+.find-us{
+    background-color:#226800 solid 2em rgb(64, 90, 192);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555;
+}
+
+.introduction{
+    font-size: 1.5em;
+    color: #72005f;
+    font-style: italic;
+}
+
+.navigation {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    background-color: #D9EECE;
+    border: 1px solid #4c0072;
+    border-top: 0px;
+    display: flex;
+}
+
+.navigation a {
+    text-decoration:none;
+    color: #226800;
+    font-weight: bold;
+    display: block; /* */
+    padding: 0.75em 1em;
+}
+
+.navigation a:visited {
+        background-color: #C4E8B1;
+        } 
+
+    a:hover {color: #339900}
+.navigation a:hover {
+    background-color: #7f9574;
+    } 
+
+
+li.selected-link {
+    background-color: rgb(127, 119, 184);
+    text-decoration:none;
+    color:white;
+    font-weight: bold;
+    display: block;
+    padding: 0.75em 1em;
+}
+
+
+h1{    
+    
+    margin-bottom: 0;
+    padding: .25em; 
+    color: #609;
+    font-size: 3em;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid #4c0072;
+    background-color :#f2eef4;
+}
+    
+h2{
+    
+    padding: .25em; 
+    font-style: italic;
+    font-size: 1.5em;
+    background-color : #f0e6f5;
+}
+
+h2, h3, h4 { color: #99007f;
+    }
+
+h3{
+    border-bottom: solid 1px #99007f;
+    padding-bottom: .25em;
+}
+
+.highlight {
+     color:hwb(239 0% 0%);
+}
+.form-control > input{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 15px;
+}
+.form-control > label{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+.email_control > input{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 15px;
+}
+.email_control > label{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+.age_control > input{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 15px;
+
+}
+.age_control > label{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+.story_control > input{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 15px;
+    
+}
+.story_control > label{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
